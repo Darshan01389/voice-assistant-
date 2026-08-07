@@ -1,0 +1,21 @@
+# Voice Assistant — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# UI
+flet>=0.21.0
+
+# Speech Recognition
+SpeechRecognition>=3.10.0
+pyaudio>=0.2.14           # mic access (may need portaudio system package)
+openai-whisper>=20231117  # offline STT fallback
+
+# AI backends
+google-genai>=0.5.0  # Gemini (free tier)
+requests>=2.31.0             # Ollama HTTP calls
+
+# TTS
+pyttsx3>=2.90
+
+# Utilities
+python-dotenv>=1.0.0
+numpy>=1.24.0               # needed by whisper
